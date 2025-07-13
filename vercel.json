@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/subs.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/subs", "dest": "api/subs.py" }
+  ]
+}
